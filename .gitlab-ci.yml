@@ -7,6 +7,6 @@ deploy_staging:
     - echo "Deploy to staging server"
   environment:
     name: staging
-    url: https://www.jamieguerrero.com/cpanel
+    url: https://www.jamieguerrero.com/gitlab
   only:
   - master
