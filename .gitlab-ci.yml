@@ -4,7 +4,7 @@ stages:
 deploy_staging:
   stage: deploy
   script:
-    - echo "Deploy to staging server"
+    - echo "Deploy to staging server!"
   environment:
     name: staging
     url: https://www.jamieguerrero.com/gitlab
