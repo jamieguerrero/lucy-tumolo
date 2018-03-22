@@ -1,6 +1,6 @@
 stages:
   - deploy
-  
+
 before_script:
  - apt-get update -qq && apt-get install -y -qq sshpass
 
@@ -12,7 +12,6 @@ deploy_stage:
   only:
     - master
   script:
-    - rm ./package-lock.json
     - ls
     - sshpass -V
     - export SSHPASS=$USER_PASS
