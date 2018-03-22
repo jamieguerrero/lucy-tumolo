@@ -1,16 +1,6 @@
 stages:
   - deploy
-
-deploy_staging:
-  stage: deploy
-  script:
-    - echo "Deploy to staging server!"
-  environment:
-    name: staging
-    url: https://www.jamieguerrero.com/gitlab
-  only:
-  - master
-
+  
 before_script:
  - apt-get update -qq && apt-get install -y -qq sshpass
 
