@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1516323779,
-    'checksum' => '1e2506af604a24b83c4c36ee36a0d534',
+    'timestamp' => 1521659427,
+    'checksum' => '1b2608a984d8822498aa127548441f75',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1512550072
+                'modified' => 1521659427
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -23,39 +23,39 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1516323778
+                'modified' => 1521659263
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1512550072
+                'modified' => 1521658962
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1512550072
+                'modified' => 1521658962
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1512550072
+                'modified' => 1521658962
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1512550072
+                'modified' => 1521658962
             ]
         ],
         'user/plugins' => [
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1512550072
+                'modified' => 1521659045
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1516318361
+                'modified' => 1521659043
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1512550072
+                'modified' => 1521659039
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
@@ -67,11 +67,11 @@ return [
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1512550072
+                'modified' => 1521659042
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1512550074
+                'modified' => 1521659044
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
@@ -94,7 +94,10 @@ return [
             'form' => [
                 'enabled' => true,
                 'built_in_css' => true,
+                'inline_css' => true,
                 'refresh_prevention' => false,
+                'client_side_validation' => true,
+                'inline_errors' => false,
                 'files' => [
                     'multiple' => false,
                     'limit' => 10,
@@ -141,10 +144,11 @@ return [
                     'delete_page' => true
                 ],
                 'edit_mode' => 'normal',
-                'frontend_pages_target' => '_blank',
+                'frontend_preview_target' => 'inline',
                 'show_github_msg' => true,
                 'pages_list_display_field' => 'title',
-                'google_fonts' => true,
+                'google_fonts' => false,
+                'admin_icons' => 'line-awesome',
                 'enable_auto_updates_check' => true,
                 'notifications' => [
                     'feed' => true,
@@ -203,7 +207,7 @@ return [
                 'max_login_count' => 0,
                 'max_login_interval' => 2,
                 'user_registration' => [
-                    'enabled' => true,
+                    'enabled' => false,
                     'fields' => [
                         0 => 'username',
                         1 => 'password',
@@ -224,7 +228,7 @@ return [
                     'options' => [
                         'validate_password1_and_password2' => true,
                         'set_user_disabled' => false,
-                        'login_after_registration' => true,
+                        'login_after_registration' => false,
                         'send_activation_email' => false,
                         'send_notification_email' => false,
                         'send_welcome_email' => false
@@ -521,18 +525,18 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Lucy Tumolo RMT',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'Lucy Tumolo',
+                'email' => 'me@jamieguerrero.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'Lucy Tumolo is a registered massage therapist based in the GTA'
             ],
             'summary' => [
                 'enabled' => true,
@@ -648,7 +652,7 @@ return [
                 'etag' => false,
                 'vary_accept_encoding' => false,
                 'redirect_default_route' => false,
-                'redirect_default_code' => 302,
+                'redirect_default_code' => '302',
                 'redirect_trailing_slash' => true,
                 'ignore_files' => [
                     0 => '.DS_Store'
@@ -709,7 +713,7 @@ return [
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => '1',
                 'log' => true
             ],
             'debugger' => [
@@ -739,6 +743,7 @@ return [
             ],
             'session' => [
                 'enabled' => true,
+                'initialize' => true,
                 'timeout' => 1800,
                 'name' => 'grav-site',
                 'secure' => false,

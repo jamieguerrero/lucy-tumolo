@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jamie/Documents/MAMProot/lucytumolo/user/plugins/admin/themes/grav/templates/forms/fields/iconpicker/icons.yaml',
-    'modified' => 1512550072,
+    'modified' => 1521659040,
     'data' => [
         'icons' => [
             0 => [

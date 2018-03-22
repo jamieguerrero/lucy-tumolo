@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jamie/Documents/MAMProot/lucytumolo/user/plugins/admin/blueprints.yaml',
-    'modified' => 1512550072,
+    'modified' => 1521659039,
     'data' => [
         'name' => 'Admin Panel',
-        'version' => '1.6.7',
+        'version' => '1.7.2',
         'description' => 'Adds an advanced administration panel to manage your site',
         'icon' => 'empire',
         'author' => [
@@ -21,7 +21,7 @@ return [
         'dependencies' => [
             0 => [
                 'name' => 'grav',
-                'version' => '>=1.3.9'
+                'version' => '>=1.4.0'
             ],
             1 => [
                 'name' => 'form',
@@ -166,14 +166,14 @@ return [
                     ],
                     'help' => 'Auto will use blueprint if available, if none found, it will use "Expert" mode.'
                 ],
-                'frontend_pages_target' => [
+                'frontend_preview_target' => [
                     'type' => 'select',
-                    'label' => 'Open frontend pages in',
+                    'label' => 'Preview pages target',
                     'size' => 'medium',
-                    'default' => '_blank',
+                    'default' => 'inline',
                     'options' => [
+                        'inline' => 'Inine in Admin',
                         '_blank' => 'New tab',
-                        'frontend_tab' => 'Separate tab (always the same)',
                         '_self' => 'Current tab'
                     ]
                 ],
@@ -188,11 +188,17 @@ return [
                         'fullpath' => 'Show fullpath'
                     ]
                 ],
+                'pages.parents_levels' => [
+                    'type' => 'text',
+                    'label' => 'Parents Levels',
+                    'size' => 'small',
+                    'help' => 'The number of levels to show in parent select list'
+                ],
                 'google_fonts' => [
                     'type' => 'toggle',
                     'label' => 'Use Google Fonts',
-                    'highlight' => 1,
-                    'default' => 1,
+                    'highlight' => 0,
+                    'default' => 0,
                     'options' => [
                         1 => 'PLUGIN_ADMIN.ENABLED',
                         0 => 'PLUGIN_ADMIN.DISABLED'
@@ -201,6 +207,16 @@ return [
                         'type' => 'bool'
                     ],
                     'help' => 'Use Google custom fonts.  Disable this to use Helvetica. Useful when using Cyrillic and other languages with unsupported characters.'
+                ],
+                'admin_icons' => [
+                    'type' => 'select',
+                    'size' => 'medium',
+                    'label' => 'Icon Style',
+                    'default' => 'line-awesome',
+                    'options' => [
+                        'line-awesome' => 'Lighter Line Icons (LineAwesome)',
+                        'font-awesome' => 'Darker Solid Icons (FontAwesome)'
+                    ]
                 ],
                 'show_beta_msg' => [
                     'type' => 'hidden'

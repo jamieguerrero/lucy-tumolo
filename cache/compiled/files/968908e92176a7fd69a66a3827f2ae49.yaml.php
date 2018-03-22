@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jamie/Documents/MAMProot/lucytumolo/user/plugins/admin/languages/sv.yaml',
-    'modified' => 1512550072,
+    'modified' => 1521659039,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Detta är en betaversion! Använd i produktion på egen risk...',

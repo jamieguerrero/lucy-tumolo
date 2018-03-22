@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jamie/Documents/MAMProot/lucytumolo/user/plugins/admin/languages/tr.yaml',
-    'modified' => 1512550072,
+    'modified' => 1521659040,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Bu bir beta sürümüdür! Sunucunuzda kullanmak sizin sorumluluğunuzdadır...',

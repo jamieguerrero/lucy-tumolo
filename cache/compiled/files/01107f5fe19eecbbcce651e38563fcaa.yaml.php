@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jamie/Documents/MAMProot/lucytumolo/system/config/system.yaml',
-    'modified' => 1512550072,
+    'modified' => 1521658962,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',
@@ -32,7 +32,7 @@ return [
             'hide_in_urls' => false
         ],
         'pages' => [
-            'theme' => 'antimatter',
+            'theme' => 'quark',
             'order' => [
                 'by' => 'default',
                 'dir' => 'asc'
@@ -171,6 +171,7 @@ return [
         ],
         'session' => [
             'enabled' => true,
+            'initialize' => true,
             'timeout' => 1800,
             'name' => 'grav-site',
             'secure' => false,

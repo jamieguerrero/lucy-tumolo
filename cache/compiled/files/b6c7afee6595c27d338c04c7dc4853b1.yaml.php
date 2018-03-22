@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jamie/Documents/MAMProot/lucytumolo/user/plugins/error/error.yaml',
-    'modified' => 1512550072,
+    'modified' => 1521659042,
     'data' => [
         'enabled' => true,
         'routes' => [

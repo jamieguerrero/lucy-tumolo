@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Home</title>
+</head>
+<body>
+
+<h1 id="gravisrunning">Grav is Running!</h1>
+
+<h2 id="youhaveinstalledgravsuccessfully">You have installed <strong>Grav</strong> successfully</h2>
+
+<p>Congratulations! You have installed the <strong>Base Grav Package</strong> that provides a <strong>simple page</strong> and the default <strong>antimatter</strong> theme to get you started.</p>
+
+<p>!!! If you want a more <strong>full-featured</strong> base install, you should check out <a href="http://getgrav.org/downloads"><strong>Skeleton</strong> packages available in the downloads</a>.</p>
+
+<h3 id="findoutallaboutgrav">Find out all about Grav</h3>
+
+<ul>
+<li>Learn about <strong>Grav</strong> by checking out our dedicated <a href="http://learn.getgrav.org">Learn Grav</a> site.</li>
+<li>Download <strong>plugins</strong>, <strong>themes</strong>, as well as other Grav <strong>skeleton</strong> packages from the <a href="http://getgrav.org/downloads">Grav Downloads</a> page.</li>
+<li>Check out our <a href="http://getgrav.org/blog">Grav Development Blog</a> to find out the latest goings on in the Grav-verse.</li>
+</ul>
+
+<h3 id="editthispage">Edit this Page</h3>
+
+<p>To edit this page, simply navigate to the folder you installed <strong>Grav</strong> into, and then browse to the <code>user/pages/01.home</code> folder and open the <code>default.md</code> file in your <a href="http://learn.getgrav.org/basics/requirements">editor of choice</a>. You will see the content of this page in <a href="http://learn.getgrav.org/content/markdown">Markdown format</a>.</p>
+
+<h3 id="createanewpage">Create a New Page</h3>
+
+<p>Creating a new page is a simple affair in <strong>Grav</strong>. Simply follow these simple steps:</p>
+
+<ol>
+<li><p>Navigate to your pages folder: <code>user/pages/</code> and create a new folder. In this example, we will use <a href="http://learn.getgrav.org/content/content-pages">explicit default ordering</a> and call the folder <code>02.mypage</code>.</p></li>
+<li><p>Launch your text editor and paste in the following sample code:</p>
+
+<pre><code>---
+title: My New Page
+---
+# My New Page!
+
+This is the body of **my new page** and I can easily use _Markdown_ syntax here.
+</code></pre></li>
+<li><p>Save this file in the <code>user/pages/02.mypage/</code> folder as <code>default.md</code>. This will tell <strong>Grav</strong> to render the page using the <strong>default</strong> template.</p></li>
+<li><p>That is it! Reload your browser to see your new page in the menu.</p></li>
+</ol>
+
+<p>! NOTE: The page will automatically show up in the Menu after the &#8220;Home&#8221; menu item. If you wish to change the name that shows up in the Menu, simple add: <code>menu: My Page</code> between the dashes in the page content. This is called the YAML front matter, and it is where you configure page-specific options.</p>
+
+</body>
+</html>
+

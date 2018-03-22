@@ -2,7 +2,7 @@
 /**
  * @package    Grav.Common.Page
  *
- * @copyright  Copyright (C) 2014 - 2017 RocketTheme, LLC. All rights reserved.
+ * @copyright  Copyright (C) 2015 - 2018 Trilby Media, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -25,6 +25,7 @@ class AudioMedium extends Medium
 
         return [
             'name' => 'audio',
+            'handler' => 'html',
             'text' => '<source src="' . $location . '">Your browser does not support the audio tag.',
             'attributes' => $attributes
         ];

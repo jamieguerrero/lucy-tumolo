@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jamie/Documents/MAMProot/lucytumolo/system/languages/pl.yaml',
-    'modified' => 1512550072,
+    'modified' => 1521658962,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s

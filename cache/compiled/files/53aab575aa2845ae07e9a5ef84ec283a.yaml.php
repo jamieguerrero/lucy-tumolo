@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jamie/Documents/MAMProot/lucytumolo/user/plugins/login/blueprints.yaml',
-    'modified' => 1512550074,
+    'modified' => 1521659044,
     'data' => [
         'name' => 'Login',
-        'version' => '2.5.0',
+        'version' => '2.6.1',
         'description' => 'Enables user authentication and login screen.',
         'icon' => 'sign-in',
         'author' => [
@@ -13,8 +13,8 @@ return [
             'email' => 'devs@getgrav.org',
             'url' => 'http://getgrav.org'
         ],
-        'keywords' => 'admin, plugin, login',
         'homepage' => 'https://github.com/getgrav/grav-plugin-login',
+        'keywords' => 'login, authentication, admin, security',
         'bugs' => 'https://github.com/getgrav/grav-plugin-login/issues',
         'license' => 'MIT',
         'dependencies' => [
@@ -238,7 +238,7 @@ return [
                                     'type' => 'toggle',
                                     'label' => 'PLUGIN_ADMIN.ENABLED',
                                     'help' => 'PLUGIN_LOGIN.USER_REGISTRATION_ENABLED_HELP',
-                                    'highlight' => 1,
+                                    'highlight' => 0,
                                     'options' => [
                                         1 => 'PLUGIN_ADMIN.YES',
                                         0 => 'PLUGIN_ADMIN.NO'
@@ -329,7 +329,7 @@ return [
                                             'type' => 'toggle',
                                             'label' => 'PLUGIN_LOGIN.LOGIN_AFTER_REGISTRATION',
                                             'help' => 'PLUGIN_LOGIN.LOGIN_AFTER_REGISTRATION_HELP',
-                                            'highlight' => 1,
+                                            'highlight' => 0,
                                             'options' => [
                                                 1 => 'PLUGIN_ADMIN.YES',
                                                 0 => 'PLUGIN_ADMIN.NO'

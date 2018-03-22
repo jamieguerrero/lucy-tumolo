@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jamie/Documents/MAMProot/lucytumolo/user/plugins/error/languages.yaml',
-    'modified' => 1512550072,
+    'modified' => 1521659042,
     'data' => [
         'en' => [
             'PLUGIN_ERROR' => [
@@ -56,6 +56,24 @@ return [
             'PLUGIN_ERROR' => [
                 'ERROR' => '错误',
                 'ERROR_MESSAGE' => '呃，似乎这个页面不存在。'
+            ]
+        ],
+        'cs' => [
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Chyba',
+                'ERROR_MESSAGE' => 'A jéje. Vypadá to, že hledaná stránka tu není.'
+            ]
+        ],
+        'pl' => [
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Błąd',
+                'ERROR_MESSAGE' => 'Ups. Wygląda na to, że ta strona nie istnieje.'
+            ]
+        ],
+        'ca' => [
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Error',
+                'ERROR_MESSAGE' => 'Ups. Sembla que aquesta pàgina no existeix.'
             ]
         ]
     ]

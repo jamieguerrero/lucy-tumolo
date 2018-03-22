@@ -2,25 +2,26 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jamie/Documents/MAMProot/lucytumolo/user/accounts/lucy.yaml',
-    'modified' => 1516318745,
+    'modified' => 1521723231,
     'data' => [
-        'email' => 'mangoflavoured@hotmail.com',
+        'email' => 'me@jamieguerrero.com',
         'fullname' => 'Lucy Tumolo',
         'title' => 'Badass RMT',
         'state' => 'enabled',
         'access' => [
             'admin' => [
-                'super' => 'true',
-                'login' => 'true'
+                'login' => true,
+                'super' => true
             ],
             'site' => [
-                'login' => 'true'
+                'login' => true
             ]
         ],
-        'hashed_password' => '$2y$10$XY2FS1sGUOQZ6xGFBTKOUeabah/SdT38EKjs3/nq6DQPn9j9h0fzq',
-        'authorized' => true,
-        'twofa_secret' => 'DLCRTITKEOYAHVGEC22PEPOFDZG25KYS',
+        'hashed_password' => '$2y$10$yeP6eJUyzSDzzbcmkanY2OeyVaBsDRDdztp1xDf.Rjeql8F5SN336',
         'language' => 'en',
-        'twofa_enabled' => false
+        'login_attempts' => [
+            
+        ],
+        'twofa_secret' => '5DPNF7B332FWMROLOMLH7CUKQ4KBCRPO'
     ]
 ];

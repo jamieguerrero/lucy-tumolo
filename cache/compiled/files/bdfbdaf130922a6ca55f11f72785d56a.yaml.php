@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/jamie/Documents/MAMProot/lucytumolo/user/plugins/form/languages.yaml',
-    'modified' => 1516318361,
+    'modified' => 1521659043,
     'data' => [
         'en' => [
             'PLUGIN_FORM' => [
@@ -26,6 +26,7 @@ return [
                 'RECAPTCHA_SECRET_KEY_HELP' => 'For more info visit https://developers.google.com/recaptcha',
                 'GENERAL' => 'General',
                 'USE_BUILT_IN_CSS' => 'Use built-in CSS',
+                'USE_INLINE_CSS' => 'Use inline CSS',
                 'FILEUPLOAD_PREVENT_SELF' => 'Cannot use "%s" outside of pages.',
                 'FILEUPLOAD_UNABLE_TO_UPLOAD' => 'Unable to upload file %s: %s',
                 'FILEUPLOAD_UNABLE_TO_MOVE' => 'Unable to move file %s to "%s"',
@@ -51,7 +52,13 @@ return [
                 'AVOID_OVERWRITING' => 'Avoid overwriting',
                 'AVOID_OVERWRITING_HELP' => 'Prevent files with the same name to be overridden. Date prefix will be added',
                 'RANDOM_NAME' => 'Random name',
-                'RANDOM_NAME_HELP' => 'Generate a random 15 long string name for the uploaded files'
+                'RANDOM_NAME_HELP' => 'Generate a random 15 long string name for the uploaded files',
+                'CLIENT_SIDE_VALIDATION' => 'Client-side validation',
+                'CLIENT_SIDE_VALIDATION_HELP' => 'By default forms will use HTML5 client validation as first line of defense',
+                'INLINE_ERRORS' => 'Inline errors',
+                'INLINE_ERRORS_HELP' => 'Useful with \'client-side validation\' off, shows inline contextual form errors',
+                'RESOLUTION_MIN' => 'The {{attr}} was less than the minimum of {{min}}px <br />',
+                'RESOLUTION_MAX' => 'The {{attr}} was more than the maximum of {{max}}px <br />'
             ]
         ],
         'de' => [
@@ -65,7 +72,8 @@ return [
                 'DESTINATION_HELP' => 'Das Ziel, wohin die Dateien hochgeladen werden sollen.',
                 'ACCEPT' => 'Erlaube MIME-Typen',
                 'ACCEPT_HELP' => 'Eine Liste von MIME-Typen, die hochgeladen werden dürfen.',
-                'ERROR_VALIDATING_CAPTCHA' => 'Die Überprüfung des Captcha ist fehlgeschlagen.'
+                'ERROR_VALIDATING_CAPTCHA' => 'Die Überprüfung des Captcha ist fehlgeschlagen.',
+                'DATA_SUMMARY' => 'Hier die Zusammenfassung von dem, was Sie geschrieben haben:'
             ]
         ],
         'es' => [
