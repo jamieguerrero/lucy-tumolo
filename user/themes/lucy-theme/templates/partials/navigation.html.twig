@@ -14,6 +14,7 @@
         {% else %}
             <li class="{{ current_page }}">
                 <a href="{{ p.url }}">
+                    
                     {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
                     {{ p.menu }}
                 </a>
@@ -45,4 +46,3 @@
         </li>
     {% endfor %}
 </ul>
-

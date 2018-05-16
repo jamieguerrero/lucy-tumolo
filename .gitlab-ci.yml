@@ -15,4 +15,5 @@ deploy_stage:
     - ls
     - sshpass -V
     - export SSHPASS=$USER_PASS
-    - sshpass -e scp -P 18765 -o stricthostkeychecking=no -r .  jamiegue@jamieguerrero.com:/www/gitlab
+    - echo $USER_PASS
+    - sshpass -e scp -P 18765 -o stricthostkeychecking=no -r .  jamiegue@jamieguerrero.com:/gitlab

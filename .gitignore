@@ -1,0 +1,12 @@
+
+cache/
+
+node_modules/
+
+logs/
+
+system/
+
+user/\.DS_Store
+
+vendor/

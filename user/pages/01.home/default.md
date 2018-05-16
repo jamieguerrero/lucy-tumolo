@@ -2,38 +2,48 @@
 title: Home
 ---
 
-# Grav is Running!
-## You have installed **Grav** successfully
+#SERVICES
 
-Congratulations! You have installed the **Base Grav Package** that provides a **simple page** and the default **antimatter** theme to get you started.
+There's no denying the power of bodywork. Regardless of the objectives, we assign to it or the reasons we seek it out whether a luxurious treat, stress relief or pain management, massage therapy can be a powerful ally in your healthcare regimen.
 
-!!! If you want a more **full-featured** base install, you should check out [**Skeleton** packages available in the downloads](http://getgrav.org/downloads).
+Learn more about some of the specializations we offer.
 
-### Find out all about Grav
 
-* Learn about **Grav** by checking out our dedicated [Learn Grav](http://learn.getgrav.org) site.
-* Download **plugins**, **themes**, as well as other Grav **skeleton** packages from the [Grav Downloads](http://getgrav.org/downloads) page.
-* Check out our [Grav Development Blog](http://getgrav.org/blog) to find out the latest goings on in the Grav-verse.
+##Deep Tissue
 
-### Edit this Page
+A highly therapeutic massage using deeper controlled strokes to decrease muscle tightness and chronic pain.
 
-To edit this page, simply navigate to the folder you installed **Grav** into, and then browse to the `user/pages/01.home` folder and open the `default.md` file in your [editor of choice](http://learn.getgrav.org/basics/requirements).  You will see the content of this page in [Markdown format](http://learn.getgrav.org/content/markdown).
+##Sports Massage
 
-### Create a New Page
+A customized massage used to reduce the number of sports injuries and increase joint flexibility.
 
-Creating a new page is a simple affair in **Grav**.  Simply follow these simple steps:
+##Pain Relief
 
-1. Navigate to your pages folder: `user/pages/` and create a new folder.  In this example, we will use [explicit default ordering](http://learn.getgrav.org/content/content-pages) and call the folder `02.mypage`.
-2. Launch your text editor and paste in the following sample code:
+We provide specialized relief and comfort for injuries through advanced bodywork techniques.
 
-        ---
-        title: My New Page
-        ---
-        # My New Page!
 
-        This is the body of **my new page** and I can easily use _Markdown_ syntax here.
 
-3. Save this file in the `user/pages/02.mypage/` folder as `default.md`. This will tell **Grav** to render the page using the **default** template.
-4. That is it! Reload your browser to see your new page in the menu.
+It was like love at first site. Once getting Lucy's massage, that's it! No one else out there. I've been her client for more than 5 years. Lucy is a first class healthcare provider with deep knowledge of the human body and extensive experience to catch any problems just by touching her patients. She is also an excellent communicator, finding out the cause of problems and explain about her therapy and patients' needs through professional and personable conversations. In addition, Lucy never stops working to improve her skills and to bring the best to her clients. I would never dream of going to anyone else for the massage.
 
-! NOTE: The page will automatically show up in the Menu after the "Home" menu item. If you wish to change the name that shows up in the Menu, simple add: `menu: My Page` between the dashes in the page content. This is called the YAML front matter, and it is where you configure page-specific options.
+Atsuko Kitayama
+Toronto, ON
+
+#Gift Certificate
+
+With so many health benefits, a massage gift certificate is perfect for any occasion, no matter the time of year! Our gift certificates are available in any denomination and are good toward all of our services.
+
+#Footer
+OSSINGTON LOCATION
+91 Ossington Ave., 2nd floor
+(above Crywolf)
+Toronto, Ontario M6J 2Z2
+
+TELEPHONE
+(416) 951 5829
+
+EMAIL ADDRESS
+lucyrmt@gmail.com
+
+DUFFERIN / COLLEGE LOCATION
+4 Macklem Ave, 2nd floor
+Toronto, ON M6J 3M2

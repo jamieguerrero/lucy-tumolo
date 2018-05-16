@@ -16,7 +16,7 @@
     {% block stylesheets %}
         {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
         {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
-        {% do assets.addCss('theme://css/custom.css', 98) %}
+        {% do assets.addCss('theme://css/dist/app.min.css', 98) %}
     {% endblock %}
     {{ assets.css() }}
 
@@ -31,10 +31,9 @@
 
 {% block header %}
     <div class="header">
-        <div class="wrapper padding">
+        <div class="grid-container">
             <a class="logo left" href="{{ base_url == '' ? '/' : base_url }}">
-                <i class="fa fa-rebel"></i>
-                {{ config.site.title }}
+              <img src="{{url('theme://images/lucy-logo-white.svg')}}" alt="">
             </a>
             {% block header_navigation %}
             <nav class="main-nav">
@@ -42,12 +41,13 @@
             </nav>
             {% endblock %}
         </div>
+        <img class="hero-background" src="{{url('theme://images/hero-background.jpg')}}"/>
     </div>
 {% endblock %}
 
 {% block body %}
     <section id="body">
-        <div class="wrapper padding">
+        <div class="grid-container">
         {% block content %}{% endblock %}
         </div>
     </section>
@@ -56,7 +56,6 @@
 {% block footer %}
     <div class="footer text-center">
         <div class="wrapper padding">
-            <p><a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="http://www.rockettheme.com">RocketTheme</a>.</p>
         </div>
     </div>
 {% endblock %}

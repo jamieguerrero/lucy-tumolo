@@ -1,0 +1,9 @@
+@import 'foundation';
+@include foundation-global-styles;
+@include add-foundation-colors;
+@include foundation-xy-grid-classes;
+
+// The files for the theme's scss.
+@import 'global/index';
+@import 'templates/index';
+@import 'partials/index';
